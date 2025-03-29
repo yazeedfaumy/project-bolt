@@ -1,0 +1,87 @@
+{
+  "palletSizes": [
+    {
+      "id": "standard",
+      "name": "Standard Pallet",
+      "length": 120,
+      "width": 100,
+      "height": 15,
+      "maxWeight": 1500,
+      "description": "Standard pallet suitable for most shipments"
+    },
+    {
+      "id": "euro",
+      "name": "Euro Pallet",
+      "length": 120,
+      "width": 80,
+      "height": 14.4,
+      "maxWeight": 1250,
+      "description": "European standard pallet"
+    },
+    {
+      "id": "custom",
+      "name": "Custom Pallet",
+      "length": 0,
+      "width": 0,
+      "height": 0,
+      "maxWeight": 0,
+      "description": "Custom dimensions"
+    }
+  ],
+  "productCategories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "baseRate": 0.085,
+      "description": "Electronic devices and components"
+    },
+    {
+      "id": "furniture",
+      "name": "Furniture",
+      "baseRate": 0.075,
+      "description": "Furniture and home goods"
+    },
+    {
+      "id": "food",
+      "name": "Food & Beverages",
+      "baseRate": 0.05,
+      "description": "Food and beverage products"
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "baseRate": 0.065,
+      "description": "Apparel and accessories"
+    }
+  ],
+  "locations": [
+    {
+      "id": "us-ny",
+      "name": "New York, USA",
+      "country": "USA",
+      "zipCode": "10001",
+      "taxRate": 0.085
+    },
+    {
+      "id": "us-ca",
+      "name": "Los Angeles, USA",
+      "country": "USA",
+      "zipCode": "90001",
+      "taxRate": 0.095
+    },
+    {
+      "id": "de-be",
+      "name": "Berlin, Germany",
+      "country": "Germany",
+      "zipCode": "10115",
+      "taxRate": 0.19
+    },
+    {
+      "id": "uk-ld",
+      "name": "London, UK",
+      "country": "UK",
+      "zipCode": "SW1A 1AA",
+      "taxRate": 0.20
+    }
+  ]
+}
